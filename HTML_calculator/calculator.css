@@ -1,0 +1,32 @@
+body {
+    background-color: grey
+}
+
+.operations {
+    position: relative;
+    left: 35%;
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+#addition {
+    background-color: teal;
+    border: 2px solid white;
+    width: 40%;
+}
+
+#subtraction {
+    background-color: cornflowerblue;
+    border: 2px solid white;
+    width: 40%;
+}
+
+#multiplication {
+    background-color: royalblue;
+    border: 2px solid white;
+    width: 40%;
+}
