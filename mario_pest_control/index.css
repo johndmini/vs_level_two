@@ -1,0 +1,196 @@
+body {
+    background-color: grey;
+}
+input {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'New Super Mario Font U', sans-serif;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    font-size: 20px;
+    font-family: 'New Super Mario Font U', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+#pest-container {
+    display: grid;
+    grid-template-columns: repeat(6, 3fr);
+    grid-template-rows: repeat(7, 3fr);
+}
+
+#title {
+    grid-column: 2 / 6;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'New Super Mario Font U', sans-serif;
+    background-color: teal;
+    border: 2px solid goldenrod;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    position: relative;
+}
+
+/* GOOMB CSS OBJECT COLLECTIONS */
+
+#goomba {
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+    background-color: darkblue;
+    border: 3px solid goldenrod;
+    padding: 10px;
+}
+
+#heftygoomba {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+#goombaform {
+    position: relative;
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    text-align: center;
+    top: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'New Super Mario Font U', sans-serif;
+    color: white;
+}
+
+#goombapriceform {
+    position: relative;
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+    text-align: center;
+    top: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'New Super Mario Font U', sans-serif;
+    color: white;
+}
+
+/* BOB OMB CSS OBJECT COLLECTIONS */
+
+#bobomb {
+    grid-column: 3 / 5;
+    grid-row: 2 / 4;
+    background-color: darkblue;
+    border: 3px solid goldenrod;
+    padding: 10px;
+
+}
+
+#heftybobomb {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+#bobform {
+    position: relative;
+    grid-column: 3 / 5;
+    grid-row: 4 / 5;
+    text-align: center;
+    top: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'New Super Mario Font U', sans-serif;
+    color: white;
+}
+
+#bobpriceform {
+    position: relative;
+    grid-column: 3 / 5;
+    grid-row: 5 / 6;
+    text-align: center;
+    top: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'New Super Mario Font U', sans-serif;
+    color: white;
+}
+
+/* CHEEP CHEEP CSS OBJECT COLLECTIONS */
+
+#cheep {
+    grid-column: 5 / 7;
+    grid-row: 2 / 4;
+    background-color: darkblue;
+    border: 3px solid goldenrod;
+    padding: 10px;
+}
+
+#heftycheep {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+#cheepform{
+    position: relative;
+    grid-column: 5 / 7;
+    grid-row: 4 / 5;
+    text-align: center;
+    top: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'New Super Mario Font U', sans-serif;
+    color: white;
+}
+
+#cheeppriceform {
+    position: relative;
+    grid-column: 5 / 7;
+    grid-row: 5 / 6;
+    text-align: center;
+    top: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'New Super Mario Font U', sans-serif;
+    color: white;
+}
+
+#totalpriceform {
+    position: relative;
+    grid-column: 2 / 6;
+    grid-row: 6 / 7;
+    text-align: center;
+    top: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'New Super Mario Font U', sans-serif;
+    color: white;
+}
+
+#poc {
+    text-align: center;
+    grid-column: 1 / 7;
+    grid-row: 7 / 8;
+}
+
+li {
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'New Super Mario Font U', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: teal;
+    padding: 5px;
+    border: 3px solid goldenrod;
+    margin: 1px;
+}
+
+/* Media Queries Collections */
