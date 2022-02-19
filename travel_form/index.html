@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content>
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>TRAVEL FORM</h1>
+        <form name="my-form">
+            <div id="name" name="givenName">
+                <strong>First Name:</strong> <input type="text" name="firstName" value="">
+                <strong>M.I.</strong> <input type="text" name="middleName" value="">
+                <strong>Last Name:</strong> <input type="text" name="lastName" value="">
+            </div>
+            <br />
+            <div id="agegender" name="agegender">
+                <strong>Age:</strong> <input type="number" name="age" value="">
+                <br />
+                <br />
+                <strong>Gender(Optional):</strong> Male <input type="radio" name="gender" value="Male"> Female <input type="radio" name="gender" value="Female">
+            </div>
+            <br />
+            <div id="travelLocation" name="travelLocation"> 
+                <strong>Travel Location:</strong> 
+                <br /> 
+                Abu Dhabi, Dubai <input type="checkbox" value="Abu Dhabi, Dubai" name="travel">
+                Paris, France <input type="checkbox" value="Paris, France" name="travel">
+                Munich, Germany <input type="checkbox" value="Munich, Germany" name="travel">
+                <br />
+                <br />
+                London, UK <input type="checkbox" value="London, UK" name="travel">
+                Edinburgh, Scotland <input type="checkbox" value="Edinburgh, Scotland" name="travel">
+                Galway, Ireland <input type="checkbox" value="Galway, Ireland" name="travel">
+                <br />
+                <br />
+                New York, NY <input type="checkbox" value="New York, NY" name="travel">
+                Philadelphia, PA <input type="checkbox" value="Philadelphia, PA" name="travel">
+                Miami, Florida <input type="checkbox" value="Miami, Florida" name="travel">
+                <br />
+                <br />
+                Seattle, WA <input type="checkbox" value="Seattle, WA" name="travel">
+                San Francisco, CA <input type="checkbox" value="San Francisco, CA" name="travel">
+                Los Angeles, CA <input type="checkbox" value="Los Angeles, CA" name="travel">
+            </div>
+            <br />
+            <div id="diet" name="diet">
+                <strong>Dietary Preferences:</strong>
+                <br />
+                <em>Select all that apply:</em>
+                <br />
+                Vegan <input type="checkbox" value="Vegan" name="diet">
+                Mediterranean <input type="checkbox" value="Mediterranean" name="diet">
+                Gluten Free <input type="checkbox" value="Gluten Free" name="diet">
+                Keto <input type="checkbox" value="Keto" name="diet">
+                <br />
+                <br />
+                Dairy Free <input type="checkbox" value="Dairy Free" name="diet"> 
+                Meat Only <input type="checkbox" value="Meat Only" name="diet">
+                Kosher <input type="checkbox" value="Kosher" name="diet">
+                Fast Food <input type="checkbox" value="Fast Food" name="diet">
+            </div>
+            <br />
+            <button id="submit">Submit</button>
+
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>

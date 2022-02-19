@@ -1,0 +1,56 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    position: relative;
+    background-color: lightgrey;
+    color: teal;
+    width: 14%;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+form {
+    position: relative;
+    width: 100%;
+    background-color: rgb(69, 100, 167);
+    padding: 10px;
+    border: 2px solid goldenrod
+}
+
+#name {
+    position: relative;
+    background-color: darkblue;
+    color: white;
+    width: 38.1%;
+    padding: 5px;
+    border: 2px solid goldenrod
+}
+
+#agegender {
+    position: relative;
+    background-color: darkblue;
+    color: white;
+    width: 16%;
+    padding: 5px;
+    border: 2px solid goldenrod
+}
+
+#travelLocation {
+    position: relative;
+    background-color: darkblue;
+    color: white;
+    width: 23.5%;
+    padding: 5px;
+    border: 2px solid goldenrod
+}
+
+#diet {
+    position: relative;
+    background-color: darkblue;
+    color: white;
+    width: 21%;
+    padding: 5px;
+    border: 2px solid goldenrod
+}
