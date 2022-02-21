@@ -41,7 +41,7 @@ let namesOnly = persons.map(person => person.name);
 console.log(namesOnly)
 
 let ageOnly = persons.map(person => {
-    if (person.age > 18) {
+    if (person.age >= 18) {
         console.log(`${person.name} can go to The Matrix`)
     } else {
         console.log(`${person.name} is not old enoguh`)
