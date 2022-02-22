@@ -37,7 +37,7 @@ const peopleArray = [
 ]
 
 peopleArray.sort(function (a, b) {
-    return a.lastName < b.lastName ? -1 : 1
+    return a.lastName.localeCompare(b.lastName)
 })
 console.log(peopleArray)
 
@@ -54,11 +54,4 @@ console.log(newArray)
 
 //---Extra Credit
 
-// const newArrayTwo = peopleArray.reduce(function(final, current) {
-//     if(current.lastName[current.lastName.length[-1]] === 'y' || current.lastName.length[current.lastName.length[-1]] === 'a'){
-//         final.push(`${current.firstName} ${current.lastName}`)
-//     }
-//     return final;
-// }, [])
-
-// console.log(newArrayTwo)
+console.log
