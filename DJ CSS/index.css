@@ -1,0 +1,133 @@
+body {
+    background-color: grey;
+}
+
+#boxone {
+    position: relative;
+    background-color: lightskyblue;
+    border: 2px solid grey;
+    color: black;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    left: 0;
+    transition: left 2s, background-color 2s linear, color 2s linear, border 2s, transform 2s
+}
+
+#boxone:hover {
+    background-color: darkblue;
+    color: red;
+    left: 500px;
+    border: 2px solid goldenrod;
+    transform: rotate(90deg)
+}
+
+#boxtwo {
+    position: relative;
+    background-color: black;
+    color: yellow;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    left: 0;
+    transition: all 4s, background-color 2s linear, border-radius .5s 
+}
+
+#boxtwo:hover {
+    background-color: teal;
+    color: darkorange;
+    left: 1000px;
+    transform: rotate(360deg);
+    width: 100px;
+    border-radius: 50%;
+}
+
+#boxthree {
+    position: relative;
+    background-color: green;
+    color: gold;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    left: 0;
+    transition: all 2s
+}
+
+#boxthree:hover {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background-color: darkorange;
+    color: darkblue;
+    left: 200px;
+}
+
+#boxfour {
+    position: relative;
+    left: 0;
+    background-color: teal;
+    color: blue;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    transition: all 4s
+}
+
+#boxfour:hover {
+    background-color: grey;
+    color: black;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid white;
+    border-bottom: 50px solid transparent;
+    left: 800px;
+    transform: rotate(360deg);
+}
+
+#boxfive {
+    position: relative;
+    left: 0;
+    background-color: cornflowerblue;
+    color: black;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    transition: all 4s, border .2s, left 4s ease-in 4s
+}
+
+#boxfive:hover {
+    background-color: grey;
+    left: 1000px;
+    width: 0px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 60px solid yellow;
+    border-left: 60px solid yellow;
+    border-bottom: 60px solid yellow;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+#boxsix {
+    position: relative;
+    left: 0;
+    background-color: red;
+    color: black;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    transition: all 4s, left 4s ease-in 4s
+}
+
+#boxsix:hover {
+    left: 800px;
+    background-color: grey;
+    color: yellow;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 white;
+}
