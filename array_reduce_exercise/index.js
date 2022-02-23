@@ -1,7 +1,7 @@
 const numbers = [1, 2, 3, 4, 5, 6]
 
-const sumOfArrays = numbers.reduce(function (sum, array) {
-    return sum + array;
+const sumOfArrays = numbers.reduce(function (sum, num) {
+    return sum + num;
 })
 
 console.log(sumOfArrays)
@@ -65,19 +65,19 @@ console.log(oneArray)
 const voteCount = voters.reduce(function (final, current){
     if(current.age >=18 && current.age <= 25){
         final.youngPeople++
-        if(current.age >=18 && current.age <= 25 && current.voted){
+        if(current.voted){
             final.youngVoted++
         }
-    } 
+    }
     if (current.age >=26 && current.age <= 35){
         final.midPeople++
-        if(current.age >=26 && current.age <= 35 && current.voted){
+        if(current.voted){
             final.midVoted++
         }
-    } 
+    }
     if (current.age >= 36 && current.age <= 55){
         final.oldPeople++
-        if(current.age >= 36 && current.age <= 55 && current.voted){
+        if(current.voted){
             final.oldVoted++
         }
     }

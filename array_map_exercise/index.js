@@ -48,10 +48,9 @@ let ageOnly = persons.map(person => {
     }
 })
 
-let nameTagged = []
+
 let namesInDom = persons.map(person => {
-    let newArray = `<h1>${person.name}</h1><h2>${person.age}</h2>`
-    nameTagged.push(newArray);
+    return `<h1>${person.name}</h1><h2>${person.age}</h2>`
 })
 
-console.log(nameTagged)
+console.log(namesInDom)

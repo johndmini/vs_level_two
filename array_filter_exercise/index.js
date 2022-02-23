@@ -3,13 +3,13 @@ const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 let newArray = array.filter((num) => num >= 5)
 console.log(newArray)
 
-let evensOnly = []
-let evenArray = array.map((num) => {
+
+let evenArray = array.filter((num) => {
     if (num % 2 === 0) {
-       evensOnly.push(num);
+       return num;
     }
 })
-console.log(evensOnly)
+console.log(evenArray)
 
 const stringArray = ['John', 'James', 'Peter', 'Andrew', 'Philipp', 'Nathaniel', 'Thomas', 'Matthew', 'Simon']
 let fiveOrLonger = stringArray.filter((name) => name.length <= 5)
