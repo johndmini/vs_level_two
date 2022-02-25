@@ -290,10 +290,27 @@ em {
 }
 
 #footer {
+    display: flex;
     grid-column: 1 / 6;
     grid-row: 11 / 12;
     background: #134347;
     z-index: 10;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer li {
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Libre Baskerville', sans-serif;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    transition: all .2s ease-in-out;
+}
+
+#footer li:hover {
+    color: #134347;
+    background: rgba(255, 255, 255, .5);
 }
 
 /* Main Body Styles */
