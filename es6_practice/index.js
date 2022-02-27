@@ -25,9 +25,15 @@ runForLoop(["cat", "dog"])
 
 const carrots = ["bright orange", "ripe", "rotten"]
 
-const mapVegetables = carrots.map((vegetables) => ({type: "carrot", name: vegetables}))
+// function mapVegetables(arr) {
+//     return arr.map(function(carrot) {
+//         return { type: "carrot", name: carrot }
+//     })
+// }
 
-console.log(mapVegetables)
+const mapVegetables = (arr) => arr.map(carrot => ({type: "carrot", name: carrot})) 
+
+console.log(mapVegetables(carrots))
 
 
 // Task 2
@@ -51,9 +57,15 @@ const people = [
     }
 ]
 
-const filterForFriendly = people.filter((person) => (person.friendly))
+// function filterForFriendly(arr) {
+//     return arr.filter(function(person) {
+//         return person.friendly
+//     })
+// }
 
-console.log(filterForFriendly)
+const filterForFriendly = (arr) => arr.filter(person => person.friendly)
+
+console.log(filterForFriendly(people))
 
 // Task 3
 
@@ -106,9 +118,9 @@ const animals = [
 //      })
 //  }
 
-const filterForDogs = animals.filter((animal) => animal.type === "dog" ? true : false)
+const filterForDogs = (arr) => arr.filter(animal => animal.type === "dog")
 
-console.log(filterForDogs)
+console.log(filterForDogs(animals))
 
 // Task 6
 
